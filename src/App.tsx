@@ -4,7 +4,6 @@ import About from './components/About';
 import TechStack from './components/TechStack';
 import Services from './components/Services';
 import Timeline from './components/Timeline';
-import Testimonials from './components/Testimonials';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
@@ -30,9 +29,6 @@ export default function App() {
 
         {/* Workflow Process Timeline */}
         <Timeline />
-
-        {/* Customer Testimonials */}
-        <Testimonials />
 
         {/* Contact Form CTA */}
         <ContactSection />
